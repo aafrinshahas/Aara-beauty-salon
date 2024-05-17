@@ -1,0 +1,213 @@
+
+.header{
+    background-color: #464646;
+}
+.header h1{
+    margin-top: 20px;
+    color: silver;
+    font-weight: bolder;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    
+}
+
+.header span{
+    color: silver;
+    font-size: 15px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+input{
+    border-color: blanchedalmond;
+    background-color: black;
+    color: white;
+    
+}
+
+.submit{
+    margin-top: 40px;
+   
+}
+
+.btn{
+    border: none;
+    background-color: orange;
+    color: white;
+    height: 35px;
+    font-weight: bold;
+}
+
+.navbar{
+    margin-top: 15px;
+    border: none;
+}
+
+
+/*main*/
+
+.main{
+    margin-top: 25px;
+}
+
+.main .para1{
+    min-height: 300px;
+    padding: 15px;
+    background-color: #393e46;
+    color:  #989898;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main .para1 h2{
+    font-size: 40px;
+    font-style: oblique;
+    color: silver;
+}
+
+.main .para1 a{
+    float: right;
+    color: orange;
+    padding-right: 15px;
+}
+
+.image{
+    background-color:#464646;
+    min-height: 300px;
+    margin-left: 0px;
+}
+
+.image p{
+    font-size: 40px;
+    text-align: center;
+    padding: 100px;
+    color: white;
+    font-family: Georgia;
+}
+
+/*sub-main*/
+.sub-main .para2{
+    margin: 40px 0px 30px 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color:  #989898;
+}
+.sub-main h2{
+    font-style: oblique;
+}
+
+/*thumbnail*/
+.thumbnail-image{
+    margin: 40px 0px 30px 0px;
+}
+
+.thumbnail-image img{
+    height: 140px;
+}
+
+/*footer-link*/
+.form-the-blog{
+    margin: 30px 0px 20px 0px;
+
+}
+
+.form-the-blog .lead{
+    color:  #989898;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.form-the-blog h5{
+    color:  #989898;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.form-the-blog p{
+    color:  #989898;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.quick-links{
+    margin: 30px 0px 20px 0px;
+}
+
+.quick-links .lead{
+    color:  #989898;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.footer-about{
+    margin: 30px 0px 20px 0px;
+}
+
+.footer-about .lead{
+    color:  #989898;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.footer-about img{
+
+    height: 165px;
+}
+
+.footer-about p{
+    min-height:145px ;
+    color:  #989898;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: oblique;
+}
+
+.footer-about a{
+    float: right;
+}
+
+/*footer*/
+.footer{
+    background-color: black;
+    min-height: 50px;
+    margin-top: 15px;
+}
+.copyright p{
+    color: silver;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.site-name p{
+    color: silver;
+    padding-top: 15px;
+    text-align: center;
+}
+
+/*for link*/
+.link{
+    color: orange;
+    font-weight: bold;
+}
+
+/*for hr tag*/
+hr{
+    border: 1px solid #989898   ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

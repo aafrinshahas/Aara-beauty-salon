@@ -1,0 +1,537 @@
+body{
+    font-family: poppins;
+    position: relative;
+    
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+}
+
+.big-banner{
+    background-image: url('../image/package_background.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+   background-attachment: fixed;
+    fill-opacity: inherit;
+    flood-opacity: inherit;
+    
+}
+
+.bg-dark{ background-color: transparent;
+    border-color: transparent;
+}
+
+.bg-dark.scrolled{
+    background-color: black;
+    border-color: transparent;
+    opacity: 0.8; 
+    animation-delay: 1s;
+    animation: 5s;   
+        box-shadow: 20px 20px 30px white;
+}
+
+.bg-dark .navbar-brand{
+    color: #fff;
+    font-size: 40px;
+    padding: 40px 15px;
+    font-weight: 900;
+    opacity: 1;
+}
+
+.nav.navbar-nav.navbar-right{
+    margin: 25px 0;
+}
+
+.bg-dark .navbar-nav li a{
+color: #eff48e;
+text-transform: uppercase;
+font-size: 20px;
+font-weight: bolder;
+opacity: 1;
+
+}
+.bg-dark .navbar-nav li a:hover{
+    color: white;
+    padding-top: 5px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    opacity: 1;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #2ec1ac;
+    text-decoration-style: solid;
+    /*text-decoration-thickness: 8px;*/
+}
+
+.dropdown-menu{
+    background-color: black;
+    border-color: transparent;
+    opacity: 0.6;
+}
+
+.dropdown-menu li a:hover{
+    background-color: transparent;
+    color: #ac4b1c;
+    opacity: 1;
+    
+}
+
+
+.carousel-caption{
+    padding-bottom: 250px;
+    font-family: poppins;
+}
+.carousel-caption h3{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    animation-duration: 2s;
+   
+
+}
+
+.carousel-caption h3 span{
+    text-transform: none;
+    color: #2ec1ac;
+    font-family: 'Dancing Script', cursive;
+}
+#quotes{
+    color: #eff48e;
+    font-family: 'Lobster', cursive;
+    
+}
+
+.carousel-caption a{
+    padding: 15px;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Kanit', sans-serif;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+.carousel-caption p{
+    margin-top: 15px;
+}
+.img-responsive{
+    height: 500px;
+}
+
+
+.carousel-indicators .active{
+ 
+   background-color: orange;
+   
+}
+
+#haircare{
+    margin: 40px;
+}
+
+#style {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;  
+}
+
+#color{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    
+}
+
+#spa{
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 70px;
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #2ec1ac;
+    font-weight: bold;
+    padding-top: 30px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+h3{
+    
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    color: #f0a500;
+}
+
+.care{
+    position: relative;
+    transition: 3s;
+    padding: 5px;
+    box-shadow: 20px 20px 30px black;
+}
+
+.care .text-content, .care:after{
+    position: absolute;    
+}
+
+.care:after{
+    content: '';
+    display: block;
+    background-color: crimson;
+    top: 20px;
+    bottom: 20px;
+    opacity: 0;
+    transform: rotate(-1,1,0,100deg);
+    transition: 4s; 
+}
+
+.care:hover:after{
+    opacity: 0;
+    transform: rotate(0,0,0,0deg);
+}
+
+.care img{
+    width: 100%;
+    height: 50;
+    border-top-left-radius: 35px;
+    
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+
+.text-content{
+    top: 235px;
+    opacity: 0;
+    z-index: 1;
+    transform: translate(10%, -30%);
+    transition: 3s;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    width: 225px;
+    text-align: center;
+    
+}
+
+.care:hover .text-content{
+    opacity: 0.7;
+    transform: translate(0, -50%);
+    background-color: crimson;
+    box-shadow: 20px 20px 30px  black;
+}
+
+#detail{
+    background-color: #2ec1ac;
+    height: 40px;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #ac4b1c;
+    text-transform: capitalize;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/*skin care*/
+#skincare{
+    margin: 40px;
+}
+
+#cleanup {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;  
+}
+
+#facial{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    
+}
+
+#mask{
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 70px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #2ec1ac;
+    
+    padding-top: 30px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+h3{
+    
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    color: #f0a500;
+}
+
+.care{
+    position: relative;
+    transition: 3s;
+    padding: 5px;
+    box-shadow: 20px 20px 30px black;
+}
+
+.care .text-content, .care:after{
+    position: absolute;    
+}
+
+.care:after{
+    content: '';
+    display: block;
+    background-color: crimson;
+    top: 20px;
+    bottom: 20px;
+    opacity: 0;
+    transform: rotate(-1,1,0,100deg);
+    transition: 4s; 
+}
+
+.care:hover:after{
+    opacity: 0;
+    transform: rotate(0,0,0,0deg);
+}
+
+.care img{
+    width: 100%;
+    height: 50;
+    border-top-left-radius: 35px;
+    
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.text-content{
+    top: 235px;
+    opacity: 0;
+    z-index: 1;
+    transform: translate(10%, -30%);
+    transition: 3s;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    width: 225px;
+    text-align: center;
+    
+}
+
+.care:hover .text-content{
+    opacity: 0.7;
+    transform: translate(0, -50%);
+    background-color: crimson;
+    box-shadow: 20px 20px 30px  black;
+}
+
+#detail{
+    background-color: #2ec1ac;
+    height: 40px;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #ac4b1c;
+    text-transform: capitalize;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/*body care*/
+#bodycare{
+    margin: 40px;
+}
+
+#manicure {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;  
+}
+
+#pedicure {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    
+}
+
+#wax {
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 70px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #2ec1ac;
+    
+    padding-top: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+h3{
+    
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    color: #f0a500;
+}
+
+.care{
+    position: relative;
+    transition: 3s;
+    padding: 5px;
+    box-shadow: 20px 20px 30px gray;
+}
+
+.care .text-content, .care:after{
+    position: absolute;    
+}
+
+.care:after{
+    content: '';
+    display: block;
+    background-color: crimson;
+    top: 20px;
+    bottom: 20px;
+    opacity: 0;
+    transform: rotate(-1,1,0,100deg);
+    transition: 4s; 
+}
+
+.care:hover:after{
+    opacity: 0;
+    transform: rotate(0,0,0,0deg);
+}
+
+.care img{
+    width: 100%;
+    height: 50;
+    border-top-left-radius: 35px;
+    
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.text-content{
+    top: 235px;
+    opacity: 0;
+    z-index: 1;
+    transform: translate(10%, -30%);
+    transition: 3s;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    width: 225px;
+    text-align: center;
+    
+}
+
+.care:hover .text-content{
+    opacity: 0.7;
+    transform: translate(0, -50%);
+    background-color: crimson;
+    box-shadow: 20px 20px 30px  black;
+}
+
+#detail{
+    background-color: #2ec1ac;
+    height: 40px;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #ac4b1c;
+    text-transform: capitalize;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+footer{
+    background-color: black;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.icons .fa{
+    font-size: 35px;
+    padding: 10px;
+}
+
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption{
+        padding-bottom: 70px;
+    }
+
+    .logo{
+        width: 90px;
+        height: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-inverse .navbar-brand{
+        font-size: 30px;
+        padding: 20px 15px;
+    }
+    .navbar-collapse{
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .carousel-caption{
+        padding-bottom: 80px;
+    }
+
+    .carousel-caption h3{
+        font-size: 20px;
+    }
+
+    .carousel-caption a{
+        font-size: 15px;
+    }
+    .carousel-caption p{
+        margin-top: 20px;
+    }
+
+    .logo{
+        width: 80px;
+        height: 60px;
+        padding-left: 10px;
+    }
+    
+}

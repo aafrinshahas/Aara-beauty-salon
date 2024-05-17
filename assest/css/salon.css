@@ -1,0 +1,362 @@
+body{
+    font-family: poppins;
+    position: relative;
+}
+
+.img-responsive{
+    height: 400px;
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+}
+
+/*nav bar*/
+.bg-dark{ background-color: transparent;
+    border-color: transparent;
+}
+
+.bg-dark.scrolled{
+    background-color: black;
+    border-color: transparent;
+    opacity: 0.8; 
+    animation-delay: 1s;
+    animation: 5s;   
+        box-shadow: 20px 20px 30px gray;
+}
+
+.bg-dark .navbar-brand{
+    color: #fff;
+    font-size: 40px;
+    padding: 40px 15px;
+    font-weight: 900;
+    opacity: 1;
+}
+
+.nav.navbar-nav.navbar-right{
+    margin: 25px 0;
+}
+
+.bg-dark .navbar-nav li a{
+color: #eff48e;
+text-transform: uppercase;
+font-size: 20px;
+font-weight: bolder;
+opacity: 1;
+
+}
+.bg-dark .navbar-nav li a:hover{
+    color: white;
+    padding-top: 5px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    opacity: 1;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #2ec1ac;
+    text-decoration-style: solid;
+    /*text-decoration-thickness: 8px;*/
+}
+
+.dropdown-menu{
+    background-color: black;
+    border-color: transparent;
+    opacity: 0.6;
+}
+
+.dropdown-menu li a:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 1;
+    
+}
+
+
+/*carousel*/
+.carousel-caption{
+    padding-bottom: 250px;
+    font-family: poppins;
+}
+.carousel-caption h3{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    animation-duration: 2s;
+}
+
+.carousel-caption h3 span{
+    text-transform: none;
+    color: #2ec1ac;
+    font-family: 'Dancing Script', cursive;
+}
+#quotes{
+    color: #eff48e;
+    font-family: 'Lobster', cursive;
+    
+}
+
+.carousel-caption a{
+    padding: 15px;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Kanit', sans-serif;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+.carousel-caption p{
+    margin-top: 15px;
+}
+
+.carousel-indicators .active{
+ 
+   background-color: orange;
+   
+}
+
+/*section*/
+section{
+    padding: 60px;
+    background-color: #212121;
+    
+}
+
+
+/*list in index page*/
+.list-group-item{
+    background-color: transparent;
+    border: none;  
+    
+}
+
+.list-group a:hover{
+   background-color: black;
+  
+}
+
+.list-group{
+    animation-duration: 10s;
+    animation-delay: 3s; 
+    
+}
+
+.list-group span {
+    color: #eff48e;
+    font-family: 'Kanit', sans-serif;
+}
+
+.services img{ 
+    height: 800px;
+}
+
+.list-group .list-group-item .list-group-item-heading{
+    color: #f0a500;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+}
+
+/*section for care pages*/
+section h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #2ec1ac;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    animation-duration: 8s;
+    animation-delay: 3s; 
+}
+
+section p{
+    padding-top: 5px;
+    color: white;
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    word-spacing: 5px;
+    animation-duration: 8s;
+    animation-delay: 3s; 
+}
+
+#left img{
+    padding-top: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    animation-duration: 8s;
+    animation-delay: 2s; 
+}
+
+#right img{
+    padding-top: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    animation-duration: 8s;
+    animation-delay: 2s; 
+
+}
+#left h3{
+    color: #f0a500;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    text-transform: capitalize;
+    float: right;
+    padding-right: 30px;
+}
+
+#left h3 a{
+    font-size: 20px;
+    word-spacing: 5px; 
+}
+
+#right h3{
+    color: #f0a500;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    text-transform: capitalize;
+    float: right;
+    padding-right: 30px;
+}
+
+#right h3 a{
+    font-size: 20px;
+    word-spacing: 5px; 
+}
+
+
+/*contact*/
+#contact{
+  padding: 30px;
+  background-color: black;
+}
+
+.contact-info h3{
+    color: #2ec1ac;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.contact-info h3 span{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    opacity: 0.5;
+}
+
+.contact-info p{
+    
+    font-size: 20px;
+    color: white;
+    font-family: poppins;
+}
+
+.contact-info h2{
+    color: #f0a500;
+    font-family: 'Lobster', cursive;
+    text-transform: capitalize;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+
+/*form*/
+label{
+    color: #f0a500;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+.btn{
+    background-color: #ac4b1c;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: right;
+    text-transform: uppercase;
+}
+
+.form-control{
+    background-color: transparent;
+    border-bottom-left-radius: 20px ;
+    border-top-right-radius: 20px;
+    height: 60px;
+    border-top-width: 10px;
+    border-block-end-color: violet;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+/*footer*/
+
+footer{
+    background-color: black;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.icons .fa{
+    font-size: 35px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption{
+        padding-bottom: 60px;
+    }
+
+    .logo{
+        width: 120px;
+        height: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-inverse .navbar-brand{
+        font-size: 30px;
+        padding: 20px 15px;
+    }
+    .navbar-collapse{
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .carousel-caption{
+        padding-bottom: 40px;
+    }
+
+    .carousel-caption h3{
+        font-size: 20px;
+    }
+
+    .carousel-caption a{
+        font-size: 15px;
+    }
+    .carousel-caption p{
+        margin-top: 20px;
+    }
+
+    section h2{
+        font-size: 40px;
+        padding: 15px;
+    }
+
+    .logo{
+        width: 80px;
+        height: 60px;
+        padding-left: 10px;
+    }
+    
+}
